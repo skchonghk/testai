@@ -14,7 +14,7 @@ const data = {
     { role: 'user', content: 'Hello, how are you?' }
   ]
 };
-
+console.log('hihihih!!!')
 axios.post(url, data, { headers })
   .then(response => {
     console.log(response.data);
