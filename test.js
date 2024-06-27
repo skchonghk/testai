@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const apiKey = 'YOUR_API_KEY';
+const apiKey = 'sk-proj-wVBZ5sTz3Z0XA5uvDM0XT3BlbkFJepiLhiO7xPLvYlCEiG3q';
 const url = 'https://api.openai.com/v1/chat/completions';
 
 const headers = {
