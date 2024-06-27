@@ -1,8 +1,10 @@
-const axios = require('axios');
+
 
 const apiKey = 'sk-proj-wVBZ5sTz3Z0XA5uvDM0XT3BlbkFJepiLhiO7xPLvYlCEiG3q';
 const url = 'https://api.openai.com/v1/chat/completions';
-
+//const axios = require('axios');
+console.log('hihihih!!!');
+/*
 const headers = {
   'Authorization': `Bearer ${apiKey}`,
   'Content-Type': 'application/json'
@@ -14,7 +16,7 @@ const data = {
     { role: 'user', content: 'Hello, how are you?' }
   ]
 };
-console.log('hihihih!!!');
+
 axios.post(url, data, { headers })
   .then(response => {
     console.log(response.data);
@@ -27,3 +29,5 @@ axios.post(url, data, { headers })
       console.error('Error:', error.message);
     }
   });
+
+*/
